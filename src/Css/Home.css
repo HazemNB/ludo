@@ -1,0 +1,19 @@
+.ddpos {
+    margin-left: auto  !important;
+}
+ 
+.Home{
+  
+
+    height: 100vh;
+}
+
+
+
+
+.bg-spring {
+    background: -webkit-linear-gradient(70deg, #85C55A  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #20A6EB 60%, #EB5F5E 60%);
+    background: -o-linear-gradient(70deg, #85C55A  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #20A6EB 60%, #EB5F5E 60%);
+    background: -moz-linear-gradient(70deg, #85C55A  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #20A6EB 60%, #EB5F5E 60%);
+    background: linear-gradient(70deg, #85C55A  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #20A6EB 60%, #EB5F5E 60%);
+}

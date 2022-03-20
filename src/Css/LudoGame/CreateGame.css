@@ -1,0 +1,99 @@
+#CreateGameDiv{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 100%;
+    grid-column-gap: 3em;
+    height:30em;
+
+    margin-left: 1em;
+    margin-top: 1em;
+    /* margin-bottom: 100em; */
+
+}
+
+#FindGamesDiv{
+    display: grid;
+    grid-template-columns: 50%  50%;
+    grid-template-rows: 100%;
+    grid-column-gap: 3em;
+    height:30em;
+
+    padding-right: 5em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.CreateGameFormDiv{
+    padding: 1em;
+    /* text-align: center; */
+
+    border-radius: 5px;
+    background-color: aliceblue;
+    justify-content: center;
+    border-color: black;
+    border-width: 0.3em;
+    border-style: solid;
+    overflow: scroll;
+}
+
+.CreateGameInputDiv{
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+#FindGameIdDiv input{
+    margin-right: 3em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    height: 2.5em;
+}
+
+.CreateGameInputDiv input{
+
+    margin-left: 3em;
+    border-radius: 10px;
+}
+#CreateGameButtonDiv span{
+    position: relative;
+    top: 6em;
+
+    color: #84C45A;
+}
+#CreateGameButton{
+    margin-top: auto;
+}
+
+.CreatedGameDetailsDiv{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 1em;
+}
+
+.StartCancelButtonsDiv{
+    display: grid;
+    margin-top: 2em;
+    grid-template-rows: 100%;
+    grid-template-columns: 0.25fr 0.25fr;
+    grid-column-gap: 3em;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+
+
+
+ 
