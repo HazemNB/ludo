@@ -63,7 +63,7 @@ function App() {
           path="/"
           element={
             <PrivateRoute pr={"hi"}>
-              <Home CurrentUser={CurrentUser} />
+              <Home CurrentUser={CurrentUser} UserData={CurrentUserData} />
             </PrivateRoute>
           }
         /> : <Route path="/" element={<LandingPage />} />}

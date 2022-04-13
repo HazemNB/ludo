@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 import { getFirestore, setDoc, doc, serverTimestamp, onSnapshot } from "firebase/firestore";
 import MultiPlayerGame from '../Components/LudoGame/Multiplayer_V1.0';
-
+import Loader from "../Components/Loader"
 
 const Multiplayer = ({CurrentUser, UserData}) => {
     const { state } = useLocation();
@@ -24,9 +24,15 @@ const Multiplayer = ({CurrentUser, UserData}) => {
             });
 
     },[])
+
+    useEffect(()=>{
+      // console.log(Game)
+ 
+
+  },[Game])
   return (
     <div>
-        <MultiPlayerGame GameData={Game}/>
+        {Object.keys(Game).length > 0 ? <MultiPlayerGame Game = {Game} UserData={UserData} GameId={state.GameId}  CurrentUser={CurrentUser}/> : <Loader/>}
     </div>
   )
 }

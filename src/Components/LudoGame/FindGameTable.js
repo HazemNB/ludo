@@ -2,7 +2,7 @@ import React from 'react'
 
 const FindGameTable = ({Games, JoinGame}) => {
     // console.log(Object.entries(Games).sort((a, b) => (a.TimeStamp > b.TimeStamp) ? 1 : -1)[0])
-    console.log("Games : ", Games)
+    // console.log("Games : ", Games)
     // console.log("TimeStamp : ", Games['bf449456-b023-4b4c-8b97-f16985210cf4'].TimeStamp.seconds)
 
     return (
@@ -22,7 +22,7 @@ const FindGameTable = ({Games, JoinGame}) => {
                             // return new Date(b.TimeStamp) - new Date(a.TimeStamp);
                             // if(a[1].PlayerNames && b[1].PlayerNames){
                                 if(a[1].TimeStamp.seconds && b[1].TimeStamp.seconds){
-                                    console.log(new Date(a[1].TimeStamp.seconds) -new Date(b[1].TimeStamp.seconds))
+                                    // console.log(new Date(a[1].TimeStamp.seconds) -new Date(b[1].TimeStamp.seconds))
                                     return new Date(a[1].TimeStamp.seconds) -new Date(b[1].TimeStamp.seconds);
                                 
                             // return a[1].PlayerNames.length - b[1].PlayerNames.length;

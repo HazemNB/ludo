@@ -76,6 +76,10 @@ const CreateGame = ({ UserData, CurrentUser }) => {
                     TimeStamp: serverTimestamp(),
                     PlayerIds: [CurrentUser.uid],
                     PlayerNames: [UserData.Name],
+                    Init: false,
+                    syncCounter: 0,
+                    MoveHistory:[],
+                    PlayerStatus:[],
 
                     State: "Open"
                 }

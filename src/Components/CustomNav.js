@@ -11,7 +11,8 @@ import { getAuth, signOut } from "firebase/auth";
 import { Navigate } from 'react-router-dom';
 import "../Css/Home.css"
 
-const CustomNav = ({CurrentUser,  }) => {
+const CustomNav = ({CurrentUser, UserData, SetCurrentViewClick  }) => {
+   
     const Logout = () => {
 
         const auth = getAuth();
